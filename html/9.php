@@ -1,0 +1,11 @@
+<?php
+$HOSTNAME="localhost";
+$USENAME="root";
+$PASSWORD="";
+$DATABASE="admin1";
+$con=mysqli_connect($HOSTNAME,$USENAME,$PASSWORD,$DATABASE);
+if($con){  
+}else{
+    die(mysqli_error($con));
+}
+?>
